@@ -1,0 +1,8 @@
+# Configuration sample
+
+# A list of backend server hosts
+backend:
+  - '192.291.212.34'
+  - '192.291.212.35'
+  - '192.291.212.36'
+  - '192.291.212.39'
