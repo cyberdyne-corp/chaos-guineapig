@@ -1,8 +1,11 @@
 # Configuration sample
 
+## This helps http :8500/v1/agent/services |jq '.[] | select(.Service == "myService").Port'
+
 # A list of backend server hosts
 backend:
-  - '192.291.212.34'
-  - '192.291.212.35'
-  - '192.291.212.36'
-  - '192.291.212.39'
+  - 'localhost:32775'
+  - 'localhost:32776'
+  - 'localhost:32777'
+  - 'localhost:32778'
+  - 'localhost:32779'
